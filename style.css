@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan&family=Great+Vibes&family=Knewave&family=Open+Sans:wght@400;700&family=Oxygen&family=Pacifico&family=Permanent+Marker&family=Quicksand&family=Raleway:ital,wght@0,300;1,200&family=Sancreek&family=Viga&family=Yanone+Kaffeesatz&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bevan&family=Great+Vibes&family=Knewave&family=Open+Sans:wght@400;700&family=Oxygen&family=Pacifico&family=Permanent+Marker&family=Quicksand&family=Raleway:ital,wght@0,300;1,200&family=Sancreek&family=Viga&family=Yanone+Kaffeesatz&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3b786;
+    border-radius: 10px;
+    border: 4px solid black;
+    
+
+}
+
+header .box{
+ background-color: #f9eec9;
+ color: black;
+ padding: 20px 10px;
+ display: flex;
+ border-radius: 10px;
+ margin: 20px;
+ max-width: 100%;
+}
+
+header li {
+    margin: 0px 40px;
+    font-size: 1.6rem;
+    font-family: Yanone Kaffeesatz;
+}
+
+header img {
+    width: 300px;
+    height: 450px;
+    background-size:cover;
+    background-position:center;
+    object-fit: cover;
+    margin: 0px 30px;
+    border-radius: 10px;
+    border: 4px solid black;
+    box-shadow: 10px 5px 5px rgb(65, 65, 65);
+    
+    
+}
+
+header .Text {
+    margin: 20px 10px;
+}
+
+header h1 {
+    font-family: knewave;
+    font-size: 3rem;
+    margin: 0px 20px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
